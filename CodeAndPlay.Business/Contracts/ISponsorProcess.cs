@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace CodeAndPlay.Business.Contracts
 {
-    public interface IOrganizerProcess
+    public interface ISponsorProcess
     {
-        IEnumerable<Organizer> Get();
+        IEnumerable<Sponsor> Get();
     }
 }

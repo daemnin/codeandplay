@@ -20,7 +20,7 @@ namespace CodeAndPlay.Business.Process
                 Name = e.Name,
                 Roles = e.Roles.Select(r => new Role
                 {
-                    Name = r.Description
+                    Description = r.Description
                 })
             });
         }

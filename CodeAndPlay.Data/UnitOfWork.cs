@@ -19,6 +19,7 @@ namespace CodeAndPlay.Data
         private IEntityRepository<Role> roleRepository;
         private IEntityRepository<Rule> ruleRepository;
         private IEntityRepository<School> schoolRepository;
+        private IEntityRepository<Sponsor> sponsorRepository;
         private IEntityRepository<Student> studentRepository;
         private IEntityRepository<Talk> talkRepository;
         private IEntityRepository<TeamMember> teamMemberRepository;
@@ -65,6 +66,11 @@ namespace CodeAndPlay.Data
         public IEntityRepository<School> SchoolRepository
         {
             get { return schoolRepository ?? (schoolRepository = new GenericRepository<SymposiumContext, School>(context)); }
+        }
+
+        public IEntityRepository<Sponsor> SponsorRepository
+        {
+            get { return sponsorRepository ?? (sponsorRepository = new GenericRepository<SymposiumContext, Sponsor>(context)); }
         }
 
         public IEntityRepository<Student> StudentRepository

@@ -57,6 +57,7 @@
     <Compile Include="Entities\Responses\AuthResponse.cs" />
     <Compile Include="Entities\Responses\BasicResponse.cs" />
     <Compile Include="Entities\Responses\ReportResponse.cs" />
+    <Compile Include="Entities\Sponsor.cs" />
     <Compile Include="Entities\Workshop.cs" />
     <Compile Include="Entities\Organizer.cs" />
     <Compile Include="Entities\Role.cs" />

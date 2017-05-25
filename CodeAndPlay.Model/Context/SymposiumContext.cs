@@ -18,6 +18,7 @@ namespace CodeAndPlay.Model.Context
         public DbSet<Team> Teams { get; set; }
         public DbSet<TeamMember> TeamMembers { get; set; }
         public DbSet<Workshop> Workshops { get; set; }
+        public DbSet<Sponsor> Sponsors { get; set; }
 
         public SymposiumContext()
             : base("SymposiumContext")

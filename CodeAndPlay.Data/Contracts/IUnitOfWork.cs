@@ -13,6 +13,7 @@ namespace CodeAndPlay.Data.Contracts
         IEntityRepository<Role> RoleRepository { get; }
         IEntityRepository<Rule> RuleRepository { get; }
         IEntityRepository<School> SchoolRepository { get; }
+        IEntityRepository<Sponsor> SponsorRepository { get; }
         IEntityRepository<Student> StudentRepository { get; }
         IEntityRepository<Talk> TalkRepository { get; }
         IEntityRepository<Team> TeamRepository { get; }

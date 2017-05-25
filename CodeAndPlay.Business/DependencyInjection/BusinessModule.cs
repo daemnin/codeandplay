@@ -1,4 +1,6 @@
-﻿using CodeAndPlay.Data;
+﻿using CodeAndPlay.Business.Contracts;
+using CodeAndPlay.Business.Process;
+using CodeAndPlay.Data;
 using CodeAndPlay.Data.Contracts;
 using CodeAndPlay.Model.Context;
 using Ninject.Modules;
@@ -12,6 +14,10 @@ namespace CodeAndPlay.Business.DependencyInjection
         {
             Kernel.Bind<SymposiumContext>().ToSelf().InRequestScope();
             Kernel.Bind<IUnitOfWork>().To<UnitOfWork>();
+
+
+            Kernel.Bind<IOrganizerProcess>().To<OrganizerProcess>();
+            Kernel.Bind<ISponsorProcess>().To<SponsorProcess>();
         }
     }
 }

@@ -67,6 +67,7 @@
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Entities\Rule.cs" />
     <Compile Include="Entities\School.cs" />
+    <Compile Include="Entities\Sponsor.cs" />
     <Compile Include="Entities\Talk.cs" />
     <Compile Include="Entities\Student.cs" />
     <Compile Include="Entities\Team.cs" />
@@ -75,6 +76,10 @@
     <Compile Include="Migrations\201705242341568_initial_schema.cs" />
     <Compile Include="Migrations\201705242341568_initial_schema.Designer.cs">
       <DependentUpon>201705242341568_initial_schema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705252004044_added_sponsors.cs" />
+    <Compile Include="Migrations\201705252004044_added_sponsors.Designer.cs">
+      <DependentUpon>201705252004044_added_sponsors.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,6 +91,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201705242341568_initial_schema.resx">
       <DependentUpon>201705242341568_initial_schema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705252004044_added_sponsors.resx">
+      <DependentUpon>201705252004044_added_sponsors.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

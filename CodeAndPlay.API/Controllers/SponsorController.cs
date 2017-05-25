@@ -5,11 +5,11 @@ using System.Web.Http;
 
 namespace CodeAndPlay.API.Controllers
 {
-    public class OrganizerController : ApiController
+    public class SponsorController : ApiController
     {
         public IKernel kernel;
 
-        public OrganizerController(IKernel kernel)
+        public SponsorController(IKernel kernel)
         {
             this.kernel = kernel;
         }
@@ -18,8 +18,9 @@ namespace CodeAndPlay.API.Controllers
         {
             try
             {
-                var process = kernel.Get<IOrganizerProcess>();
+                var process = kernel.Get<ISponsorProcess>();
                 var result = process.Get();
+
                 return Ok(result);
             }
             catch (Exception)
