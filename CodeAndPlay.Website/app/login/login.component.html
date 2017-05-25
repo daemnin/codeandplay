@@ -1,0 +1,20 @@
+﻿<h1>Login</h1>
+<!-- TODO: Change to real view -->
+<div class="row">
+    <div class="col-sm-2">
+        <label>Usuario</label>
+    </div>
+    <div class="col-sm-10 col-span-2">
+        <input #username type="text" class="form-control" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-2">
+        <label>Password</label>
+    </div>
+    <div class="col-sm-10 col-span-2">
+        <input #password type="password" class="form-control" />
+    </div>
+</div>
+
+<button (click)="login(username.value, password.value)">Login</button>

@@ -1,0 +1,25 @@
+﻿<nav class="navbar navbar-inverse bg-inverse navbar-toggleable-md">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">
+        <img src="../favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="">
+        Code &amp; Play
+    </a>
+
+    <div class="collapse navbar-collapse navbar-toggleable-md" [ngbCollapse]="isCollapsed" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" routerLink="/home"><i class="fa fa-home">&nbsp;</i>Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/home"><i class="fa fa-comments">&nbsp;</i>Conferencias</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/home"><i class="fa fa-wrench">&nbsp;</i>Talleres</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/home"><i class="fa fa-calendar-o">&nbsp;</i>Eventos</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/home"><i class="fa fa-sitemap">&nbsp;</i>Organizadores</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/home"><i class="fa fa-envelope">&nbsp;</i>Contacto</a></li>
+        </ul>
+        <ul class="navbar-nav navbar-right">
+            <li class="nav-item"><a class="nav-link" routerLink="/login"><i class="fa fa-user-plus">&nbsp;</i>Registro</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/login"><i class="fa fa-sign-in">&nbsp;</i>Login</a></li>
+        </ul>
+    </div>
+</nav>
+<router-outlet></router-outlet>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CONVOCATORIES_CLOSED" xml:space="preserve">
+    <value>Todas las convocatorias se encuentran cerradas.</value>
+  </data>
+  <data name="INVALID_CREDENTIALS" xml:space="preserve">
+    <value>Las credenciales son inválidas.</value>
+  </data>
+  <data name="INVALID_CTRL_NUM" xml:space="preserve">
+    <value>El número de control es inválido.</value>
+  </data>
+  <data name="INVALID_CTRL_NUM_WORKSHOP" xml:space="preserve">
+    <value>El número de control es inválido o el taller no existe.</value>
+  </data>
+  <data name="INVALID_SEARCH_CRITERIA" xml:space="preserve">
+    <value>Los datos son inválidos.</value>
+  </data>
+  <data name="INVALID_TEAM_COMPOSITION" xml:space="preserve">
+    <value>Algún miembro del equipo ya tiene un evento asignado.</value>
+  </data>
+  <data name="INVALID_TEAM_DATA" xml:space="preserve">
+    <value>El nombre del equipo o el número de control de los integrantes son inválidos o no se seleccionó un capitán.</value>
+  </data>
+  <data name="INVALID_TEAM_NAME" xml:space="preserve">
+    <value>El nombre del equipo ya está ocupado.</value>
+  </data>
+  <data name="INVALID_TEAM_SIZE" xml:space="preserve">
+    <value>El tamaño del equipo es inválido.</value>
+  </data>
+  <data name="MEMBERS_NOT_REGISTERED_OR_GUESTS" xml:space="preserve">
+    <value>Verifique que todos los miembros del equipo están registrados y pertenecen a Ing. en sistemas computacionales.</value>
+  </data>
+  <data name="NOT_REGISTERED_OR_GUEST" xml:space="preserve">
+    <value>El estudiante aun no se ha registrado o no pertenece a Ing. en sistemas computacionales.</value>
+  </data>
+  <data name="REPORT_HAS_NO_RECORDS" xml:space="preserve">
+    <value>No se encontró información usando esa criteria de búsqueda.</value>
+  </data>
+  <data name="SELECT_EVENT" xml:space="preserve">
+    <value>Por favor, selecciona un evento al cual registrarás tu equipo.</value>
+  </data>
+  <data name="SELECT_WORKSHOP" xml:space="preserve">
+    <value>Por favor, seleccione un taller al cual te registrarás.</value>
+  </data>
+  <data name="WORKSHOP_ALREADY_EXIST" xml:space="preserve">
+    <value>El estudiante ya tiene un taller asignado.</value>
+  </data>
+  <data name="WORKSHOP_GROUP_FULL" xml:space="preserve">
+    <value>El taller al que te intentas registrar ya no tiene cupo.</value>
+  </data>
+</root>
