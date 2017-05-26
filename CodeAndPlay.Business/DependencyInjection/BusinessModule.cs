@@ -18,6 +18,8 @@ namespace CodeAndPlay.Business.DependencyInjection
 
             Kernel.Bind<IOrganizerProcess>().To<OrganizerProcess>();
             Kernel.Bind<ISponsorProcess>().To<SponsorProcess>();
+            Kernel.Bind<ITalkProcess>().To<TalkProcess>();
+            Kernel.Bind<IWorkshopProcess>().To<WorkshopProcess>();
         }
     }
 }

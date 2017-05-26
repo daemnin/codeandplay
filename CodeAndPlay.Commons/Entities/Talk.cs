@@ -7,7 +7,7 @@ namespace CodeAndPlay.Commons.Entities
         public string Speaker { get; set; }
         public string Company { get; set; }
         public string Title { get; set; }
-        public string Topic { get; set; }
+        public int Duration { get; set; }
         public DateTime Date { get; set; }
     }
 }

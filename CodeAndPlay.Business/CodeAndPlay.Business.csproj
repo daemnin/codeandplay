@@ -65,10 +65,14 @@
     <Compile Include="Commons\Constants.cs" />
     <Compile Include="Contracts\IOrganizerProcess.cs" />
     <Compile Include="Contracts\ISponsorProcess.cs" />
+    <Compile Include="Contracts\ITalkProcess.cs" />
+    <Compile Include="Contracts\IWorkshopProcess.cs" />
     <Compile Include="DependencyInjection\BusinessModule.cs" />
     <Compile Include="Process\Abstract\ProcessBase.cs" />
     <Compile Include="Process\OrganizerProcess.cs" />
     <Compile Include="Process\SponsorProcess.cs" />
+    <Compile Include="Process\TalkProcess.cs" />
+    <Compile Include="Process\WorkshopProcess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

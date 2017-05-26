@@ -54,6 +54,7 @@
     <Compile Include="Entities\Event.cs" />
     <Compile Include="Entities\Login.cs" />
     <Compile Include="Entities\Report.cs" />
+    <Compile Include="Entities\Requirement.cs" />
     <Compile Include="Entities\Responses\AuthResponse.cs" />
     <Compile Include="Entities\Responses\BasicResponse.cs" />
     <Compile Include="Entities\Responses\ReportResponse.cs" />
