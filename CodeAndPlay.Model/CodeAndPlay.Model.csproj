@@ -59,7 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Attendance.cs" />
-    <Compile Include="Entities\Contact.cs" />
+    <Compile Include="Entities\Ticket.cs" />
     <Compile Include="Entities\Organizer.cs" />
     <Compile Include="Context\SymposiumContext.cs" />
     <Compile Include="Entities\Event.cs" />
@@ -81,6 +81,10 @@
     <Compile Include="Migrations\201705252004044_added_sponsors.Designer.cs">
       <DependentUpon>201705252004044_added_sponsors.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705260449597_contact_rename_ticket.cs" />
+    <Compile Include="Migrations\201705260449597_contact_rename_ticket.Designer.cs">
+      <DependentUpon>201705260449597_contact_rename_ticket.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -94,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705252004044_added_sponsors.resx">
       <DependentUpon>201705252004044_added_sponsors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705260449597_contact_rename_ticket.resx">
+      <DependentUpon>201705260449597_contact_rename_ticket.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

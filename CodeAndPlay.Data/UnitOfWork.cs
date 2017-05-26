@@ -12,7 +12,6 @@ namespace CodeAndPlay.Data
         private bool disposed;
         private SymposiumContext context;
         private IEntityRepository<Attendance> attendanceRepository;
-        private IEntityRepository<Contact> contactRepository;
         private IEntityRepository<Event> eventRepository;
         private IEntityRepository<Organizer> organizerRepository;
         private IEntityRepository<Requirement> requirementRepository;
@@ -24,6 +23,7 @@ namespace CodeAndPlay.Data
         private IEntityRepository<Talk> talkRepository;
         private IEntityRepository<TeamMember> teamMemberRepository;
         private IEntityRepository<Team> teamRepository;
+        private IEntityRepository<Ticket> ticketRepository;
         private IEntityRepository<Workshop> workshopRepository;
         #endregion
 
@@ -31,11 +31,6 @@ namespace CodeAndPlay.Data
         public IEntityRepository<Attendance> AttendanceRepository
         {
             get { return attendanceRepository ?? (attendanceRepository = new GenericRepository<SymposiumContext, Attendance>(context)); }
-        }
-
-        public IEntityRepository<Contact> ContactRepository
-        {
-            get { return contactRepository ?? (contactRepository = new GenericRepository<SymposiumContext, Contact>(context)); }
         }
 
         public IEntityRepository<Event> EventRepository
@@ -91,6 +86,11 @@ namespace CodeAndPlay.Data
         public IEntityRepository<Team> TeamRepository
         {
             get { return teamRepository ?? (teamRepository = new GenericRepository<SymposiumContext, Team>(context)); }
+        }
+
+        public IEntityRepository<Ticket> TicketRepository
+        {
+            get { return ticketRepository ?? (ticketRepository = new GenericRepository<SymposiumContext, Ticket>(context)); }
         }
 
         public IEntityRepository<Workshop> WorkshopRepository

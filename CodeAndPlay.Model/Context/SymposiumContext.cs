@@ -6,7 +6,6 @@ namespace CodeAndPlay.Model.Context
     public class SymposiumContext : DbContext
     {
         public DbSet<Attendance> Attendances { get; set; }
-        public DbSet<Contact> Contacts { get; set; }
         public DbSet<Event> Events { get; set; }
         public DbSet<Organizer> Organizers { get; set; }
         public DbSet<Requirement> Requirements { get; set; }
@@ -17,6 +16,7 @@ namespace CodeAndPlay.Model.Context
         public DbSet<Talk> Talks { get; set; }
         public DbSet<Team> Teams { get; set; }
         public DbSet<TeamMember> TeamMembers { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
         public DbSet<Workshop> Workshops { get; set; }
         public DbSet<Sponsor> Sponsors { get; set; }
 
